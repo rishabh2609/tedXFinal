@@ -1,0 +1,49 @@
+@font-face {
+	font-family: hLight;
+	src: url(HelveticaNeue.ttf);
+}
+@font-face {
+	font-family: hBold;
+	src: url(HelveticaBold.ttf);	
+}
+body, html {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+	font-family: hLight;
+}
+#splash {
+	position: fixed;
+	width: 2px;
+	height: 2px;
+	background: #e62b1e;
+	border-radius: 100%;
+	transform-origin: 50% 50%;
+	transform: translate(50vw, 50vh);
+	opacity: 0.5;
+}
+#the_x {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100vh;
+	width: 100vw;
+	background-image: url(X.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center middle;
+}
+#ted_logo {
+	transform: translate(300px, 0px);
+}
+.jumbotron {
+	background: transparent;
+}
+#info {
+	position: fixed;
+	text-align: right;
+	z-index: 900;
+	overflow: hidden;
+}
