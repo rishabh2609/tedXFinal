@@ -26,5 +26,14 @@ function second() {
 		ease: Bounce.easeOut,
 		delay: 0.6
 	}
-	);	
+	);
+	TweenMax.to(tedx, 1, 
+	{
+		scale: 1.1,
+		delay: 1,
+		repeat: -1,
+		yoyo: true
+	}
+	);
+		
 }
