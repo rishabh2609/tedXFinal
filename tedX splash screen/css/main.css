@@ -13,6 +13,7 @@ body, html {
 	padding: 0px;
 	color: #fff;
 	font-family: hLight;
+	text-align: center;
 }
 #splash {
 	position: fixed;
@@ -24,26 +25,28 @@ body, html {
 	transform: translate(50vw, 50vh);
 	opacity: 0.5;
 }
-#the_x {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	height: 100vh;
-	width: 100vw;
-	background-image: url(X.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center middle;
-}
 #ted_logo {
-	transform: translate(300px, 0px);
+	transform: translate(500px, 0px);
+}
+#college {
+	transform-origin: 0px 0px;
+	transform: rotateX(90deg);
+}
+#coming_label {
+	padding: 10px 10px;
+	width: 150px;
+	margin-top: -30px;
+	opacity: 1;
+	box-shadow: 0px 0px 0px 1px #fff;
+	color: #fff;
+	text-align: center;
 }
 .jumbotron {
 	background: transparent;
 }
 #info {
-	position: fixed;
-	text-align: right;
-	z-index: 900;
-	overflow: hidden;
+	text-align: center;
+	overflow-x: hidden;
+	max-width: 500px;
+	margin-top: 20vh;
 }
